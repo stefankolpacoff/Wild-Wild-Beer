@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+li {
+    list-style: none;
+}
+h1 {
+    display: flex;
+    background-color:#792D0D;
+    color: white;
+    justify-content: center;
+    font-family:"Vanilla Whale";
+    margin-top: 0%;
+    font-size: 4vw;
+   
+
+}
+
+
+
+
+.logo {
+   position: absolute;
+    display: flex;
+    width: 100%;
+    top: 0%;
+    height: 40px;
+   justify-content: space-between;
+   
+    
+}
+.title{
+position: relative;
+}
+.flag{
+    width: 15px;
+    height: 15px;
+    margin-top: 1.7%;
+    margin-right: 1%;
+
+}
+.logo1{
+    margin-left: 0.5%;
+    height: 57px;
+}
+.nav{
+    display: flex;
+    font-family: "Vanilla Whale";
+    justify-content: space-between;
+    padding: 20px;
+    margin-left: 8%;
+    margin-right: 8%;
+    
+    }
+
+.blocLien1 {
+    
+    display: flex;
+    font-size: 3vw;  
+    
+}
+.blocLien1 li:nth-child(1){
+margin-left: 1rem;
+}
+.blocLien1 li:nth-child(2){
+   margin-left: 6rem;
+}
+
+
+.blocLien2{
+    display: flex;
+    font-size: 3vw;
+}
+.blocLien2 li:nth-child(1){
+    margin-right: 6rem;
+}
+
+.blocLien2 li:nth-child(2){
+    margin-right: 1rem;
+}
