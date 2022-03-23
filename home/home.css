@@ -121,6 +121,7 @@ header .blocLien2 li:nth-child(2){
     height: 200vh;
     margin: 0;
     top: 0;
+
     
     
 
@@ -134,6 +135,7 @@ header .blocLien2 li:nth-child(2){
     width: 100%;
     margin: 0;
     object-fit:cover;
+    filter: blur(2px);
     
 
 }
@@ -175,7 +177,6 @@ header .blocLien2 li:nth-child(2){
     transform: translateX(-50%);
     overflow: hidden;
     top: 200%;    
-    border-style: solid;
 }
 
 @keyframes glisse {
