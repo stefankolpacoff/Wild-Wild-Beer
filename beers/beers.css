@@ -39,7 +39,7 @@
   transform: rotateY(180deg);
 }
 
-img {
+.card img {
   text-align: center;
   width: 70%;
   margin: auto;
