@@ -46,7 +46,7 @@ header .logo1{
 
 /* Les onglets */
  header .nav{
-    position: relative;
+    position: absolute;
     display: flex;
     font-family: "Vanilla Whale";
     justify-content: space-between;
@@ -97,15 +97,13 @@ header .blocLien2 li:nth-child(2){
     height: 100vh;
     width: 100%;
     object-fit: cover;
-    top:-6.2rem;
-    
-
 }
 .blocVideo video{
     
     z-index: -100;
-    height : auto;
+    object-fit: cover;
     width: 100%;
+    height: 100%;
     
 }
 
@@ -128,7 +126,7 @@ header .blocLien2 li:nth-child(2){
 }
 
 .wall img{
-    position: absolute;
+    
     bottom: 32vh;
     left: 0;
     height: 200vh;
