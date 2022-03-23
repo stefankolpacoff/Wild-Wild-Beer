@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;;
+    
+}
+
+ .teamPicture{ 
+     
+  background-color: #D9C48D;
+}
+ .teamPicture img{
+    position: absolute;
+    width: 40%;
+    height: 60vh;
+    margin-top: 30%;
+    margin-left: 15%;
+    
+}
+.teamPresentation{
+ background-color: #D9C48D;
+}
+.teamPresentation img{
+    position: relative;
+    height: 60vh;
+    width: 40%;
+    margin-left: 50%;
+    margin-top: 44%;
+    margin-bottom: 30%;
+}
