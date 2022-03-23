@@ -1,0 +1,41 @@
+body {
+    height: 100rem;
+    width: 100%;
+}
+@font-face {
+    font-family: "fontMain";
+    src: url("/font/vanilla\ whale.otf")
+
+}
+
+.div-landing{
+    height: 100%;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    padding-top: 20%;
+    font-family: "fontMain";
+    font-size: 2vw;
+}
+
+.landing {
+    text-align: center;
+    opacity: 0.9;
+    height: 10rem;
+    width: 35rem;
+    background-color: #792d0d;
+    color: black;
+    border-radius: 1.5rem;
+    box-shadow: 0.3rem 0.3rem 0.2rem 0 grey;
+}
+.landing button{
+    margin-left: 1%;
+    
+}
+
+
+/* 
+essayage de boutton
+*/
+
