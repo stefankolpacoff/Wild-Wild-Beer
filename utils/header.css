@@ -14,6 +14,7 @@ header h1 {
     background-color:#792D0D;
     color: white;
     justify-content: center;
+    align-items: center;
     font-family:"fontMain";
     margin-top: 0%;
     font-size: 4vw;
@@ -93,7 +94,6 @@ header .blocLien2 li:nth-child(2){
 /* Section vidéo */
 .blocVideo{
     position: relative;
-    height: 100vh;
     width: 100%;
     object-fit: cover;
     
