@@ -27,6 +27,7 @@ footer input {
   border: none;
   width: 20vw;
 }
+
 footer button {
   border-radius: 1vw;
   background-color: rgb(22, 21, 21);
@@ -36,6 +37,8 @@ footer button {
   transition: all 0.5s;
   cursor: pointer;
   margin: 5px;
+  width: 5rem;
+  height: 1.2rem;
 }
 
 footer button span {
