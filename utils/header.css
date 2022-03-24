@@ -46,7 +46,7 @@ header .logo1{
 
 /* Les onglets */
  header .nav{
-    position: relative;
+    position: absolute;
     display: flex;
     font-family: "Vanilla Whale";
     justify-content: space-between;
