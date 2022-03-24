@@ -1,109 +1,96 @@
-*{
-    margin: 0;
-    padding: 0;
-    
+* {
+  margin: 0;
+  padding: 0;
 }
 
 header li {
-    list-style: none;
-    
+  list-style: none;
 }
 /* Titre principal */
 header h1 {
-    display: flex;
-    background-color:#792D0D;
-    color: white;
-    justify-content: center;
-    align-items: center;
-    font-family:"fontMain";
-    margin-top: 0%;
-    font-size: 4vw;
+  display: flex;
+  background-color: #792d0d;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  font-family: "fontMain";
+  margin-top: 0%;
+  font-size: 4vw;
 }
 
 header .logo {
-   background-color: #792D0D;
-    display: flex;
-    width: 100%;
-    top: 0%;
-   justify-content: space-between;
-   
+  background-color: #792d0d;
+  display: flex;
+  width: 100%;
+  top: 0%;
+  justify-content: space-between;
 }
 
- header .title{
-position: relative;
+header .title {
+  position: relative;
 }
 
-header .flag{
-    width: 1rem;
-    height: 1rem;
-    margin-top: 1.7%;
-    margin-right: 1%;
-
+header .flag {
+  width: 1rem;
+  height: 1rem;
+  margin-top: 1.7%;
+  margin-right: 1%;
 }
-header .logo1{
-    
-    height: 3.5rem;
+header .logo1 {
+  height: 3.5rem;
 }
 
 /* Les onglets */
- header .nav{
-    position: absolute;
-    display: flex;
-    font-family: "fontMain";
-    justify-content: space-between;
-    padding: 2%;
-    margin-left: 11%;
-    margin-right: 3%;
-    color: rgb(255, 255, 255);
-    z-index: 2; 
-   
-} 
+header .nav {
+  /* position: absolute; */
+  display: flex;
+  font-family: "fontMain";
+  justify-content: space-between;
+  padding: 2%;
+  margin-left: 11%;
+  margin-right: 3%;
+  color: rgb(255, 255, 255);
+  z-index: 2;
+}
 
 header .blocLien1 {
-    display: flex;
-    font-size: 3vw; 
+  display: flex;
+  font-size: 3vw;
 }
-header a{
-    text-decoration: none;
-    color: white;
-}
-
-
-
-header .blocLien1 li:nth-child(1){
-margin-right: 10rem;
+header a {
+  text-decoration: none;
+  color: white;
 }
 
-header .blocLien1 li:nth-child(2){
-   margin-right: 2rem;
+header .blocLien1 li:nth-child(1) {
+  margin-right: 10rem;
 }
 
-header .blocLien2{
-    display: flex;
-    font-size: 3vw;
+header .blocLien1 li:nth-child(2) {
+  margin-right: 2rem;
 }
 
-header .blocLien2 li:nth-child(1){
-    margin-left: 15rem;
+header .blocLien2 {
+  display: flex;
+  font-size: 3vw;
 }
 
-header .blocLien2 li:nth-child(2){
-    margin-left: 10rem;
+header .blocLien2 li:nth-child(1) {
+  margin-left: 15rem;
+}
+
+header .blocLien2 li:nth-child(2) {
+  margin-left: 10rem;
 }
 
 /* Section vidéo */
-.blocVideo{
-    position: relative;
-    width: 100%;
-    object-fit: cover;
-    
-
+.blocVideo {
+  position: relative;
+  width: 100%;
+  object-fit: cover;
 }
-.blocVideo video{
-    
-    z-index: -100;
-    height : auto;
-    width: 100%;
-    
+.blocVideo video {
+  z-index: -100;
+  height: auto;
+  width: 100%;
 }
-
