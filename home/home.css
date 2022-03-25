@@ -1,123 +1,92 @@
-*{
-    margin: 0;
-    padding: 0;
-    
+* {
+  margin: 0;
+  padding: 0;
 }
 
-
-/* Section vidéo */
-.blocVideo{
-    position: relative;
-    width: 100%;
-    object-fit: cover;
 }
-.blocVideo video{
-    
-    z-index: -100;
-    object-fit: cover;
-    width: 100%;
-    height: 100%;
-    
+.blocVideo video {
+  z-index: -100;
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
 }
-
-
-
-
 
 /* Section image du mur a bière */
-.wall{
-    position: relative;
-    display: flex;
-    justify-content: center;
-    height: 200vh;
-    margin: 0;
-    top: 0;
-
-    
-    
-
+.wall {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  height: 200vh;
+  margin: 0;
+  top: 0;
 }
 
-.wall img{
-    
-    bottom: 32vh;
-    left: 0;
-    height: 200vh;
-    width: 100%;
-    margin: 0;
-    object-fit:cover;
-    filter: blur(2px);
-    
-
+.wall img {
+  bottom: 32vh;
+  left: 0;
+  height: 200vh;
+  width: 100%;
+  margin: 0;
+  object-fit: cover;
+  filter: blur(2px);
 }
-
 
 /* Citation */
-.quote{
-   
-    text-align: center;
-    color: white;
-    font-size: 3rem;
-    font-family: "SedanSC";
-    z-index: 1;
-    position: absolute;
-    top: 5%;
-   
+.quote {
+  text-align: center;
+  color: white;
+  font-size: 3rem;
+  font-family: "SedanSC";
+  z-index: 1;
+  position: absolute;
+  top: 5%;
 }
-
-
 
 /* Carousel */
 .slide {
-    float: left;
-    
-     
+  float: left;
 }
-.slides { 
-    width:calc(500px *3); 
-    animation: glisse 10s infinite;
-    
-  
-    
-    
+.slides {
+  width: calc(500px * 3);
+  animation: glisse 10s infinite;
 }
-.slider{
-    position: absolute;
-    width: 500px;
-    left: 50%;
-    transform: translateX(-50%);
-    overflow: hidden;
-    top: 200%;    
+.slider {
+  position: absolute;
+  width: 500px;
+  left: 50%;
+  transform: translateX(-50%);
+  overflow: hidden;
+  top: 200%;
 }
 
 @keyframes glisse {
-    0% {
-        transform: translateX(0);
-    }
+  0% {
+    transform: translateX(0);
+  }
 
-    10% {
-        transform: translateX(0);
-    }
+  10% {
+    transform: translateX(0);
+  }
 
-    33% {
-        transform: translateX(-500px);
-    
-    }  
-    43% {
-        transform: translateX(-500px);
-    }
+  33% {
+    transform: translateX(-500px);
+  }
+  43% {
+    transform: translateX(-500px);
+  }
 
-    66% {
-        transform: translateX(-1000px);
-    }
-    76% {
-        transform: translateX(-1000px);
-    }
+  66% {
+    transform: translateX(-1000px);
+  }
+  76% {
+    transform: translateX(-1000px);
+  }
 
-    100% {
-        transform: translateX(0);
-    }
+  100% {
+    transform: translateX(0);
+  }
 }
+
 
 
 /* Code CSS landing page  */
@@ -213,6 +182,7 @@ span.buttonLanding1 a:after{
 span.buttonLanding1 a:hover{
   transform: translateZ(-25px) rotateX(-90deg);
 }
+
 
 
 
