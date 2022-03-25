@@ -42,7 +42,7 @@ header .logo1 {
 
 /* Les onglets */
 header .nav {
-  /* position: absolute; */
+  position: absolute;
   display: flex;
   font-family: "fontMain";
   justify-content: space-between;
