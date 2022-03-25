@@ -48,6 +48,7 @@
 .card {
   flex-direction: column;
   min-height: 70vh;
+  padding: 3rem;
 }
 
 .beers {
