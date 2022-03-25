@@ -1,68 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../home/home.css">
+    <link rel="stylesheet" href="../utils/header.css">
     <link rel="stylesheet" href="../utils/footer.css">
-
     <title>Wild-Wild-Beer</title>
 </head>
-
 <body>
     <header>
-
         <div class="title">
-
             <logo class="logo">
                 <img class="logo1"
                     src="https://cdn.discordapp.com/attachments/952869494471159838/953673835792707615/logo.png"
                     alt="Logo d'un houblon dans de la bière" ;>
-
                 <h1>
                     Wild Wild Beer
                 </h1>
-
                 <img class="flag" src="../assets/pngegg.png" alt="Logo du drapeau Anglais">
             </logo>
         </div>
-
         <nav class="nav">
-
             <ul class="blocLien1">
                 <li> <a href="../beers/beers.html">beers</a> </li>
                 <li> <a href="../recipe/recipe.html">recipe</a> </li>
-
             </ul>
-
             <ul class="blocLien2">
                 <li> <a href="../team/team.html">team</a> </li>
-                <li> <a href="../contact/contact.html">conract</a></li>
+                <li> <a href="../contact/contact.html">contact</a></li>
             </ul>
-
-
         </nav>
-
-
-
     </header>
-
-
-
+    <div class="divLanding">
+        <div class="landing">
+            <h5>En cliquant sur le bouton, vous confirmez avoir plus de 18ans (ou pas)</h5>
+            <span  class="buttonLanding1" ><a id="confirm" type="button"></a></span>
+        </div>
+    </div>
     <div class="blocVideo">
         <video autoplay="autoplay" muted="" loop="" src="../assets/video.mp4"></video>
     </div>
-
-
-
     <div class="wall">
         <img src="../assets/beer-wall.jpg" alt="mur de bière">
         <h2 class="quote">“Beer is proof that God loves us and wants us to be happy.” - Benjamin Franklin - 1779</h2>
-
     </div>
-
-
     <div class="slider">
         <div class="slides">
             <div class="slide"><img src="../assets/ble.jpg" alt="Image de ble" /></div>
@@ -70,7 +52,7 @@
             <div class="slide"><img src="../assets/tireuse.jpg" alt="Image d'une tireuse à bière" /></div>
         </div>
     </div>
-
+    
     <footer>
         <div class="bloc1">
             <h2>News letter</h2>
@@ -79,7 +61,6 @@
                 <button type="submit"><span>Envoyer</span></button>
             </form>
             <ul>
-
                 <li><a href="../beers/beers.html">
                         <p>beers</p>
                     </a></li>
@@ -95,7 +76,6 @@
                 <li><a href="../contact/contact.html">
                         <p>Contact Us</p>
                     </a></li>
-
             </ul>
             <hr>
         </div>
@@ -113,19 +93,16 @@
             </div>
         </div>
         <div class="endFoot">
-
-
             <img src="../assets/logo/logo.png">
             <h6>L'abus d'alcool est dangereux pour la santé!</h6>
             <div>
                 <img src="../assets/logo/facebook.png" alt="facebook">
                 <img src="../assets/logo/instagram.png" alt="instagrame">
                 <img src="../assets/logo/twitter.png" alt="twitter">
-
             </div>
         </div>
     </footer>
-
+    <script src="./homeLanding.js"></script>
 </body>
 
 </html>
